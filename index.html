@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Sistema de Estacionamento</title>
+</head>
+<body>
+    <div class="header">
+        <h2>Sistema de Estacionamento</h2>
+        <h4>Cadastre seu veiculo!</h4>
+    </div>
+    <div class="container">
+        <input type="text" id="name" placeholder="Digite o nome do veiculo">
+        <input type="text" id="licence" placeholder="Digite a placa do veiculo">
+        <button id="send">Registrar</button>
+    </div>
+    <table class="flat-table flat-table-1">
+        <thead>
+            <tr>
+                <th>Veiculo</th>
+                <th>Placa</th>
+                <th>Horario</th>
+                <th>Ações</th>
+            </tr>
+        </thead>
+        <tbody id="garage"></tbody>
+    </table>
+</body>
+<script src="main.js"></script>
+</html>
